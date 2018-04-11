@@ -14,12 +14,12 @@ Sin embargo, no excluimos al final del proyecto, implementar en el programa la p
 **Aspectos técnicos y diseño preliminar**
  
 
-**posibleMovimiento(Coordenada fuente, Coordenada destino)**: compruebe si el movimiento que está por hacer está permitido por reglamento o no.
-**getCoordenada()**: devuelve las coordenadas de la pieza.
-**obtenerJugador()**: devuelve el dueño de la pieza.
-**misma(Caja c1, Caja c2)**: compruebe si dos cajas son iguales, es decir, tienen la misma fila y la misma columna.
-**validasCoordenadas(int x, int y)**: dice si las coordenadas dadas son válidas y caen dentro de la mesa de juego.
-**imprimirTableroAjedrez()**: posición actual de las piezas sobre la mesa.
+* **posibleMovimiento(Coordenada fuente, Coordenada destino)**: compruebe si el movimiento que está por hacer está permitido por reglamento o no.
+* **getCoordenada()**: devuelve las coordenadas de la pieza.
+* **obtenerJugador()**: devuelve el dueño de la pieza.
+* **misma(Caja c1, Caja c2)**: compruebe si dos cajas son iguales, es decir, tienen la misma fila y la misma columna.
+* **validasCoordenadas(int x, int y)**: dice si las coordenadas dadas son válidas y caen dentro de la mesa de juego.
+* **imprimirTableroAjedrez()**: posición actual de las piezas sobre la mesa.
 
 En el desarrollo del juego se nos van a presentar algunos problemas,
 probablemente la mayoría relacionados con el movimiento de las fichas (ya que cada ficha
