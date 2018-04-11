@@ -1,8 +1,8 @@
 # Ajedrez
 
-Nombre del Grupo: International 
+**Nombre del Grupo**: International 
 
-Título del Proyecto: chess (ajedrez)
+**Título del Proyecto**: chess (ajedrez)
 
 **Introducción y descripción del juego**
  
@@ -14,14 +14,11 @@ Sin embargo, no excluimos al final del proyecto, implementar en el programa la p
 **Aspectos técnicos y diseño preliminar**
  
 
--**posibleMovimiento(Coordenada fuente, Coordenada destino)**: compruebe si
-el movimiento que está por hacer está permitido por reglamento o no.
+-**posibleMovimiento(Coordenada fuente, Coordenada destino)**: compruebe si el movimiento que está por hacer está permitido por reglamento o no.
 -**getCoordenada()**: devuelve las coordenadas de la pieza.
 -**obtenerJugador()**: devuelve el dueño de la pieza.
--**misma(Caja c1, Caja c2)**: compruebe si dos cajas son iguales, es decir, tienen la
-misma fila y la misma columna.
--**validasCoordenadas(int x, int y)**: dice si las coordenadas dadas son válidas y
-caen dentro de la mesa de juego.
+-**misma(Caja c1, Caja c2)**: compruebe si dos cajas son iguales, es decir, tienen la misma fila y la misma columna.
+-**validasCoordenadas(int x, int y)**: dice si las coordenadas dadas son válidas y caen dentro de la mesa de juego.
 -**imprimirTableroAjedrez()**: posición actual de las piezas sobre la mesa.
 
 En el desarrollo del juego se nos van a presentar algunos problemas,
