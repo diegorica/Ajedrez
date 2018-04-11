@@ -31,18 +31,18 @@ Movimiento de las piezas respecto de otras piezas: aunque una pieza tenga unos
 movimientos prediseñados, si otra pieza del mismo color está en la casilla a la que se
 quiere mover o si alguna pieza está en medio del camino que debe recorrer para llegar
 a la casilla (excepto en el caballo), no se podrá realizar dicho movimiento.
-*  Movimiento del peón: ya que el movimiento del peón negro y el blanco no son iguales,
+*  Movimiento del peón: ya que el movimiento del peón negro y el blanco no son iguales,
 el movimiento para comer es distinto al movimiento normal de un peón y desde su
 posición inicial el peón puede recorrer el doble de espacio.
-*  Situación en la que se termine en “tablas”: las situaciones que terminen en empate
+*  Situación en la que se termine en “tablas”: las situaciones que terminen en empate
 puede que nos den algún problema, ya que puede acabar en empate por varias
 razones.
-*  Movimiento del rey: ya que el rey no solo tiene que tener en cuenta la posición de las
+*  Movimiento del rey: ya que el rey no solo tiene que tener en cuenta la posición de las
 demás piezas sino también los sitios a los que pueden moverse las piezas de distinto
 color.
-*  El tablero: al ser un array de dos dimensiones va a resultar difícil de implementar ya
+*  El tablero: al ser un array de dos dimensiones va a resultar difícil de implementar ya
 que no lo hemos hecho antes en esta asignatura.
-*  Herencia de Pieza: al haber seis tipos de piezas distintas, además de dos colores puede
+*  Herencia de Pieza: al haber seis tipos de piezas distintas, además de dos colores puede
 resultar complicado hacer la herencia de la clase Pieza.
 
 **Reparto de tareas / planificación**
